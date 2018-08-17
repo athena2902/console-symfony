@@ -20,6 +20,6 @@ class SpeakCommand extends Command
     {
         exec('say ' . $input->getArgument('message'));
 
-        $output->writeln('All done.');
+        $output->writeln('<info>All done.</info>');
     }
 }
